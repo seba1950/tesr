@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+}
+.nav {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a {
+	padding: 0 50px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: 0.3s;
+}
+.nav-item a:hover {
+	color: rgb(20, 196, 196);
+}
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/planet-1702788_1920.jpg');
+	background-size: cover;
+	background-position: 0 50%;
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 11, 27, 0.4);
+}
+.header-text h1 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+main{
+	margin: 50px auto;
+	width: 1200px;
+}
+
+main h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.about-us-box{
+	margin: 40px 0;
+}
+.top {
+	position: relative;
+	height: 300px;
+	background-image: url("../img/coffee-4334647_1920.jpg");
+	background-attachment: fixed;
+	
+}
+footer {
+	height: 80px;
+	line-height: 80px;
+	background-color: #333;
+	color: #ddd;
+	text-align: center;
+	font-style: 20px;
+}
+.icon-box {
+	margin-left: 20px;
+}
+.icon-box a {
+	margin: 0 5px;
+	color: #ddd;
+	font-size: 20px;
+	transition: color 0.3s;
+}
+.icon-box a:hover {
+	color: rgb(20, 196, 196);
+}
